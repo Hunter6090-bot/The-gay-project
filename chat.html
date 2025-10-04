@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat &amp; messaging | Near &amp; Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Teko:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="chat">
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="logo" href="index.html">
+          <span aria-hidden="true">⤓</span>
+          <span>Near &amp; Now</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+          <ul class="nav-list" id="primary-nav">
+            <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+            <li><a class="nav-link" data-page="registration" href="registration.html">Join</a></li>
+            <li><a class="nav-link" data-page="profile" href="profile.html">Profile</a></li>
+            <li><a class="nav-link" data-page="browse" href="browse.html">Discover</a></li>
+            <li><a class="nav-link" data-page="matches" href="matches.html">Matches</a></li>
+            <li><a class="nav-link" data-page="chat" href="chat.html">Chat</a></li>
+            <li><a class="nav-link" data-page="video" href="video.html">Video</a></li>
+            <li><a class="nav-link" data-page="premium" href="premium.html">Premium</a></li>
+            <li><a class="nav-link" data-page="notifications" href="notifications.html">Alerts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Keep the heat going</p>
+            <h1>Chat in real time with disappearing control.</h1>
+            <p>
+              Swap pics, send voice notes, or escalate to video without missing a beat. Your controls dictate who can save,
+              forward, or screenshot.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#live">See live conversations</a>
+              <a class="btn btn-secondary" href="#features">Explore chat tools</a>
+            </div>
+          </div>
+          <div class="chat-window" aria-label="Sample conversation">
+            <div class="chat-stream">
+              <div class="chat-bubble received">Heading to the club at 11. Want to link before?</div>
+              <div class="chat-bubble sent">Down. Hotel lobby at 10:15? I'll grab us drinks.</div>
+              <div class="chat-bubble received">Perfect. Sending room key once I'm checked in.</div>
+            </div>
+            <div class="chat-input">
+              <input type="text" aria-label="Message input" placeholder="Send a message" />
+              <button class="btn btn-primary" type="button">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="live" class="section">
+        <div class="container grid grid-2">
+          <div class="card">
+            <span class="badge">Live status</span>
+            <h3>Know who's active</h3>
+            <p>
+              Typing indicators, read receipts, and online badges keep you updated. Stealth mode hides your status when
+              you want to browse quietly.
+            </p>
+            <ul class="list-inline">
+              <li>Typing cues</li>
+              <li>Seen timestamps</li>
+              <li>Stealth toggle</li>
+            </ul>
+          </div>
+          <div class="card">
+            <span class="badge">Media vault</span>
+            <h3>Share with control</h3>
+            <p>
+              Send disappearing photos, set view timers, and lock down downloads. All media is encrypted and stays yours to
+              revoke at any time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container grid grid-3">
+          <article class="feature-card">
+            <span class="badge">Voice &amp; video</span>
+            <h3>Tap to escalate</h3>
+            <p>Start a voice note or upgrade to video with one press—no new app needed.</p>
+          </article>
+          <article class="feature-card">
+            <span class="badge">Group threads</span>
+            <h3>Create private rooms</h3>
+            <p>Plan nights out or trips with group chats, shared media, and polls.</p>
+          </article>
+          <article class="feature-card">
+            <span class="badge">Receipts</span>
+            <h3>Keep everything aligned</h3>
+            <p>Pin plans, share locations, and bookmark messages so nobody forgets the plan.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container highlight-strip">
+          <h3>Ready to show your face?</h3>
+          <p>Jump on a live call to make sure the chemistry sticks before meeting up.</p>
+          <a class="btn btn-primary" href="video.html">Start a call</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span aria-hidden="true">⤓</span>
+            <span>Near &amp; Now</span>
+          </a>
+          <p class="footer-meta">Built for gay men who want connection, privacy, and heat—fast.</p>
+        </div>
+        <div>
+          <h4>Next move</h4>
+          <ul class="detail-list">
+            <li><a href="video.html">Face-to-face</a></li>
+            <li><a href="matches.html">Review matches</a></li>
+            <li><a href="notifications.html">Tune alerts</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Need more fire?</h4>
+          <ul class="detail-list">
+            <li><a href="premium.html">Upgrade messaging</a></li>
+            <li>Unlimited disappearing media</li>
+            <li>Priority inbox</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-meta" style="margin-top: 2rem;">
+        © <span id="year"></span> Near &amp; Now. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
