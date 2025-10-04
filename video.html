@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video calls | Near &amp; Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Teko:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="video">
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="logo" href="index.html">
+          <span aria-hidden="true">⤓</span>
+          <span>Near &amp; Now</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+          <ul class="nav-list" id="primary-nav">
+            <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+            <li><a class="nav-link" data-page="registration" href="registration.html">Join</a></li>
+            <li><a class="nav-link" data-page="profile" href="profile.html">Profile</a></li>
+            <li><a class="nav-link" data-page="browse" href="browse.html">Discover</a></li>
+            <li><a class="nav-link" data-page="matches" href="matches.html">Matches</a></li>
+            <li><a class="nav-link" data-page="chat" href="chat.html">Chat</a></li>
+            <li><a class="nav-link" data-page="video" href="video.html">Video</a></li>
+            <li><a class="nav-link" data-page="premium" href="premium.html">Premium</a></li>
+            <li><a class="nav-link" data-page="notifications" href="notifications.html">Alerts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">See the vibe</p>
+            <h1>Video chat before you pull up.</h1>
+            <p>
+              Launch a live room in seconds to confirm the chemistry, verify identity, or bring a group together. No extra
+              downloads, just full control.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#setup">Set up a call</a>
+              <a class="btn btn-secondary" href="#controls">View controls</a>
+            </div>
+          </div>
+          <div class="media-preview" aria-hidden="true">
+            <img
+              src="https://images.unsplash.com/photo-1604079628040-94301bb21b11?auto=format&fit=crop&w=1200&q=80"
+              alt="Group video call preview"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="setup" class="section">
+        <div class="container grid grid-2">
+          <div class="card">
+            <span class="badge">Quick launch</span>
+            <h3>Drop a link instantly</h3>
+            <p>
+              Start a one-on-one or group call with a shareable invite link. Schedule for later or go live immediately with
+              automatic time limits.
+            </p>
+            <ul class="list-inline">
+              <li>One tap join</li>
+              <li>Record consent</li>
+              <li>Room locks</li>
+            </ul>
+          </div>
+          <div class="card">
+            <span class="badge">Backgrounds</span>
+            <h3>Keep it discreet</h3>
+            <p>
+              Blur or replace your background, switch lighting presets, and control camera angles. Audio filters strip
+              background noise so it's just you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="controls" class="section">
+        <div class="container grid grid-3">
+          <article class="feature-card">
+            <span class="badge">Safety</span>
+            <h3>Verification prompts</h3>
+            <p>Ask for specific gestures or phrases to confirm you're talking to the real guy.</p>
+          </article>
+          <article class="feature-card">
+            <span class="badge">Energy</span>
+            <h3>Dual camera mode</h3>
+            <p>Share your face and room at the same time when you're ready to host.</p>
+          </article>
+          <article class="feature-card">
+            <span class="badge">Premium</span>
+            <h3>Broadcast rooms</h3>
+            <p>Host a group session with up to 12 guys, moderated chat, and drop-in controls.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container highlight-strip">
+          <h3>All set to go live?</h3>
+          <p>Choose who sees your invite and keep the vibe locked with passcode-protected rooms.</p>
+          <a class="btn btn-primary" href="chat.html">Share a link</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span aria-hidden="true">⤓</span>
+            <span>Near &amp; Now</span>
+          </a>
+          <p class="footer-meta">Built for gay men who want connection, privacy, and heat—fast.</p>
+        </div>
+        <div>
+          <h4>Next move</h4>
+          <ul class="detail-list">
+            <li><a href="chat.html">Chat first</a></li>
+            <li><a href="matches.html">Check matches</a></li>
+            <li><a href="premium.html">Upgrade controls</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Need backup?</h4>
+          <ul class="detail-list">
+            <li><a href="notifications.html">Alert friends</a></li>
+            <li>Share check-ins</li>
+            <li>Time limit reminders</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-meta" style="margin-top: 2rem;">
+        © <span id="year"></span> Near &amp; Now. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

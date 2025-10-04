@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notifications | Near &amp; Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Teko:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="notifications">
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="logo" href="index.html">
+          <span aria-hidden="true">⤓</span>
+          <span>Near &amp; Now</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+          <ul class="nav-list" id="primary-nav">
+            <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+            <li><a class="nav-link" data-page="registration" href="registration.html">Join</a></li>
+            <li><a class="nav-link" data-page="profile" href="profile.html">Profile</a></li>
+            <li><a class="nav-link" data-page="browse" href="browse.html">Discover</a></li>
+            <li><a class="nav-link" data-page="matches" href="matches.html">Matches</a></li>
+            <li><a class="nav-link" data-page="chat" href="chat.html">Chat</a></li>
+            <li><a class="nav-link" data-page="video" href="video.html">Video</a></li>
+            <li><a class="nav-link" data-page="premium" href="premium.html">Premium</a></li>
+            <li><a class="nav-link" data-page="notifications" href="notifications.html">Alerts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Stay on your terms</p>
+            <h1>Control every ping, buzz, and alert.</h1>
+            <p>
+              Choose how you want to be notified—from instant match alerts to silent check-ins. Keep your momentum without
+              feeling overwhelmed.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#types">Alert types</a>
+              <a class="btn btn-secondary" href="#settings">Customize delivery</a>
+            </div>
+          </div>
+          <div class="card">
+            <span class="badge">Snapshot</span>
+            <h3>Recommended stack</h3>
+            <ul class="detail-list">
+              <li><strong>Matches</strong> — Push + email summary nightly.</li>
+              <li><strong>Messages</strong> — Push when online, mute when on Do Not Disturb.</li>
+              <li><strong>Safety</strong> — Always on. Includes check-in reminders and report updates.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="types" class="section">
+        <div class="container grid grid-3">
+          <article class="feature-card">
+            <span class="badge">Matches</span>
+            <h3>Instant sparks</h3>
+            <p>Real-time push, SMS backup, and daily digest so you never miss a mutual match.</p>
+          </article>
+          <article class="feature-card">
+            <span class="badge">Messages</span>
+            <h3>Stay responsive</h3>
+            <p>Choose per-conversation alerts, include voice note previews, and pause threads when you need space.</p>
+          </article>
+          <article class="feature-card">
+            <span class="badge">Moments</span>
+            <h3>Heat alerts</h3>
+            <p>Get pinged when saved profiles go live, when you're trending, or when nearby guys host.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="settings" class="section">
+        <div class="container grid grid-2">
+          <div class="card">
+            <span class="badge">Delivery</span>
+            <h3>Fine-tune timing</h3>
+            <p>
+              Set quiet hours, location-based muting, and travel mode rules. Alerts sync across devices instantly so your
+              settings stay consistent.
+            </p>
+            <ul class="list-inline">
+              <li>Quiet hours</li>
+              <li>Travel mode</li>
+              <li>Device sync</li>
+            </ul>
+          </div>
+          <div class="card">
+            <span class="badge">Safety</span>
+            <h3>Check-ins &amp; backup</h3>
+            <p>
+              Schedule safety check-ins, share live location with trusted contacts, and get notified when a report is
+              resolved.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container highlight-strip">
+          <h3>Never miss the right moment.</h3>
+          <p>Dial in your notifications so you know exactly when the guys you want are online.</p>
+          <a class="btn btn-primary" href="matches.html">Review matches</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span aria-hidden="true">⤓</span>
+            <span>Near &amp; Now</span>
+          </a>
+          <p class="footer-meta">Built for gay men who want connection, privacy, and heat—fast.</p>
+        </div>
+        <div>
+          <h4>Stay sharp</h4>
+          <ul class="detail-list">
+            <li><a href="chat.html">Manage chats</a></li>
+            <li><a href="video.html">Schedule calls</a></li>
+            <li><a href="premium.html">Unlock premium alerts</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Need help?</h4>
+          <ul class="detail-list">
+            <li><a href="mailto:support@nearandnow.app">support@nearandnow.app</a></li>
+            <li>Abuse response 24/7</li>
+            <li>Safety guidelines</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-meta" style="margin-top: 2rem;">
+        © <span id="year"></span> Near &amp; Now. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
